@@ -1,0 +1,44 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #191919;
+    background-image: url('./img/background.jpg');
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* .custom-bg{
+    background-image: url('./img/jscode.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.custom-bg2{
+    background-image: url('./img/jscode2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+@media screen and (max-width: 400px){
+    body{
+        background: #3f3f3f;
+    }
+}
+
+@media screen and (max-width: 600px){
+    body{
+        background: #656565;
+    }
+}
+
+@media screen and (max-width: 800px){
+    body{
+        background: #191919;
+    }
+    .custom-bg2, .custom-bg{
+        background: #191919;
+    }
+}
+
